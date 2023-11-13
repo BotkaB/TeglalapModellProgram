@@ -17,7 +17,7 @@ public class CUI_Megjelenito {
 
     private void inicializalas() {
         int a = bekerEgeszt("\'A\' oldal: ");
-        int b = bekerEgeszt("\'A\' oldal: ");
+        int b = bekerEgeszt("\'B\' oldal: ");
         tegla = new Teglalap(a, b);
     }
 
@@ -28,8 +28,8 @@ public class CUI_Megjelenito {
 
     private void feladat() {
         System.out.println("A téglalap területe, kerülete: ");
-        System.out.printf("\tterület: %d\n", tegla.terulet());
-        System.out.printf("\tkerület: %d\n", tegla.kerulet());
+        System.out.printf("\tT: %.3f\n", tegla.terulet());
+        System.out.printf("\tK: %.3f\n", tegla.kerulet());
     }
     
     
