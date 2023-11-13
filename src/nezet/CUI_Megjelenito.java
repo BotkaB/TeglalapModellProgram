@@ -1,12 +1,16 @@
 package nezet;
 
 import java.util.Scanner;
+/* MVC elv sérül:
+ * a nézet nem ismerhetné a modellt!!!
+ */
 import modell.Teglalap;
 
 public class CUI_Megjelenito {
     
     private static Scanner sc = new Scanner(System.in);
 
+    /* Ez modell !!! */
     private Teglalap tegla;
     
     public CUI_Megjelenito() {
